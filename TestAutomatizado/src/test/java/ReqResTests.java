@@ -54,11 +54,11 @@ public class ReqResTests extends BaseTests {
         System.out.println(response);
 
     }
-   /* @Test
+    @Test
     public void postPessoa(){
         String response =  RestAssured.given()
                 .header("Topaz-Channel", "MOBILE")
-                .header("Topaz-Transaction-ID", fechaNow)
+                .header("Topaz-Transaction-ID", "")
                 .header("Topaz-User", "TOP")
                 .header("Topaz-Company", 358)
                 .header("Topaz-Branch", 1001)
@@ -135,5 +135,5 @@ public class ReqResTests extends BaseTests {
                 .asString();
         System.out.println(response);
 
-    }*/
+    }
 }

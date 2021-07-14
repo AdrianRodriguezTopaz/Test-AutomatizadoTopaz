@@ -21,7 +21,6 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
-
     // https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all
     testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
 
