@@ -25,10 +25,15 @@ public  abstract class BaseTests {
     public static void setup(){
         logger.info("Iniciando la configuracion");
         RestAssured.baseURI= "http://localhost:8080/topazinterpretedws";
-        logger.info("Configuracion exitosa");
+        //new RequestSpecBuilder().addFilter(filters);
 
+        logger.info("Configuracion exitosa");
+      //  RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
         List<Filter> filters = new ArrayList<>();
+        filters.add(new RequestLoggingFilter());
+        filters.add(new ResponseLoggingFilter());
         filters.add(new AllureRestAssured());
+       // new RequestSpecBuilder().addFilter(filters);
 
     }
 }

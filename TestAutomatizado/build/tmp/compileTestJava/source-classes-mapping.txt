@@ -1,8 +1,38 @@
 RequestPrueba.java
  RequestPrueba
+IncluirPessoaPOJOPackages/DocumentoAdicional.java
+ IncluirPessoaPOJOPackages.DocumentoAdicional
+IncluirPessoaPOJOPackages/Cashin.java
+ IncluirPessoaPOJOPackages.Cashin
+IncluirPessoaPOJOPackages/DadosBasicos.java
+ IncluirPessoaPOJOPackages.DadosBasicos
+IncluirPessoaPOJOPackages/DadosEmail.java
+ IncluirPessoaPOJOPackages.DadosEmail
+IncluirPessoaPOJOPackages/DadosRenda.java
+ IncluirPessoaPOJOPackages.DadosRenda
+IncluirPessoaPOJOPackages/DadosEndereco.java
+ IncluirPessoaPOJOPackages.DadosEndereco
+IncluirPessoaPOJOPackages/DadosTelefone.java
+ IncluirPessoaPOJOPackages.DadosTelefone
+IncluirPessoaPOJOPackages/DadosProfissao.java
+ IncluirPessoaPOJOPackages.DadosProfissao
+IncluirPessoaPOJOPackages/ResponseConta.java
+ IncluirPessoaPOJOPackages.ResponseConta
+Response.java
+ Response
+Request2.java
+ Request2
+IncluirPessoaPOJOPackages/DadosCliente.java
+ IncluirPessoaPOJOPackages.DadosCliente
+IncluirPessoaPOJOPackages/IncluirPessoaObject.java
+ IncluirPessoaPOJOPackages.IncluirPessoaObject
+IncluirPessoaPOJOPackages/ResponseIncluirCliente.java
+ IncluirPessoaPOJOPackages.ResponseIncluirCliente
+IncluirPessoaPOJOPackages/IncluirContaCorrente.java
+ IncluirPessoaPOJOPackages.IncluirContaCorrente
 BaseTests.java
  BaseTests
 ReqResTests.java
  ReqResTests
-Request2.java
- Request2
+IncluirPessoa.java
+ IncluirPessoa

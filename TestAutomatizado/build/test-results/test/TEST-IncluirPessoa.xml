@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IncluirPessoa" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-21T20:08:01" hostname="TPZPC112" time="9.193">
+  <properties/>
+  <testcase name="pruebaConParametros()" classname="IncluirPessoa" time="9.193"/>
+  <system-out><![CDATA[2021-07-21T17:08:00,227 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T17:08:01,265 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+Request method:	POST
+Request URI:	http://localhost:8080/topazinterpretedws/PessoaService/v1/incluirPessoa
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Topaz-Channel=MOBILE
+				Topaz-Transaction-ID=2021-07-21T17:08:01.313
+				Topaz-User=TOP
+				Topaz-Company=358
+				Topaz-Branch=1001
+				Authorization=Bearer 45684184
+				Topaz-Ip-Address=127.0.0.0
+				Topaz-Mac-Address=00-14-22-01-23-45
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "documentoAdicional": {
+        "dataExpiracao": "2025-12-02",
+        "tipoDocumento": "RG",
+        "orgaoExpedicaoSigla": "SSP",
+        "numeroDocumento": "76453782120",
+        "dataExpedicao": "2010-12-02",
+        "ufExpedicao": "RS"
+    },
+    "tipoDocumento": "CPF",
+    "dadosBasicos": {
+        "ufNaturalidade": "RJ",
+        "apelido": "HIST",
+        "declaracaoPpe": "NAO",
+        "estadoCivil": "SOLTEIRO",
+        "declaracaoFatca": "NAO",
+        "codigoPais": "76",
+        "naturalidade": "RIO DE JANEIRO",
+        "genero": "FEMININO",
+        "nomePai": "PAPAI AMANDA ARAUJO",
+        "funcionario": "NAO",
+        "dataNascimento": "2000-08-10T00:00:00Z",
+        "nacionalidade": "BRASILEIRO",
+        "nomeMae": "MAMAE AMANDA ARAUJO",
+        "pessoaComDeficiencia": "NAO",
+        "emancipado": "NAO",
+        "nomeCompleto": "AMANDA ARAUJO",
+        "patrimonioFim": 130000
+    },
+    "dadosEmail": {
+        "email": "HIST@GMAIL.COM"
+    },
+    "dadosEndereco": {
+        "complemento": "AP 610",
+        "numero": 2948,
+        "logradouro": "CRISTOVÃƒO COLOMBO",
+        "bairro": "HIGIENOPOLIS",
+        "tipoResidencia": "NAO_INFORMADA",
+        "tipoLogradouro": "RUA",
+        "tipoEndereco": "RESIDENCIAL",
+        "cep": "01009999"
+    },
+    "dadosTelefone": {
+        "telefone": "998085315",
+        "tipoTelefone": "CELULAR",
+        "ddd": "51",
+        "ramal": ""
+    },
+    "dadosRenda": {
+        "rendaComprovada": "SIM",
+        "rendaPresumida": "NAO",
+        "rendaBruta": 5000,
+        "rendaLiquida": 4000
+    },
+    "numeroDocumento": "32563849519",
+    "dadosProfissao": {
+        "codigoProfissao": "1",
+        "nomeCargo": "Algun Cargo"
+    },
+    "dadosCliente": null
+}
+HTTP/1.1 200 OK
+X-Powered-By: Undertow/1
+Topaz-Process-Date: 2021/07/07
+Server: WildFly/10
+Topaz-Posting-ID: 1001-20210707-900000158
+Date: Wed, 21 Jul 2021 20:08:07 GMT
+Topaz-Branch-Number: 1001
+Connection: keep-alive
+Topaz-Posting-Number: 900000158
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "tipoDocumento": "CPF",
+    "numeroDocumento": "32563849519"
+}
+{
+    "tipoDocumento": "CPF",
+    "numeroDocumento": "32563849519"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/topazinterpretedws/Cliente/v1/incluirCliente
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Topaz-Channel=MOBILE
+				Topaz-Transaction-ID=2021-07-21T17:08:07.323
+				Topaz-User=TOP
+				Topaz-Company=358
+				Topaz-Branch=1001
+				Authorization=Bearer 45684184
+				Topaz-Ip-Address=127.0.0.0
+				Topaz-Mac-Address=00-14-22-01-23-45
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "documentoAdicional": {
+        "dataExpiracao": "2025-12-02",
+        "tipoDocumento": "RG",
+        "orgaoExpedicaoSigla": "SSP",
+        "numeroDocumento": "76453782120",
+        "dataExpedicao": "2010-12-02",
+        "ufExpedicao": "RS"
+    },
+    "tipoDocumento": "CPF",
+    "dadosBasicos": {
+        "ufNaturalidade": "RJ",
+        "apelido": "HIST",
+        "declaracaoPpe": "NAO",
+        "estadoCivil": "SOLTEIRO",
+        "declaracaoFatca": "NAO",
+        "codigoPais": "76",
+        "naturalidade": "RIO DE JANEIRO",
+        "genero": "FEMININO",
+        "nomePai": "PAPAI AMANDA ARAUJO",
+        "funcionario": "NAO",
+        "dataNascimento": "2000-08-10T00:00:00Z",
+        "nacionalidade": "BRASILEIRO",
+        "nomeMae": "MAMAE AMANDA ARAUJO",
+        "pessoaComDeficiencia": "NAO",
+        "emancipado": "NAO",
+        "nomeCompleto": "AMANDA ARAUJO",
+        "patrimonioFim": 130000
+    },
+    "dadosEmail": {
+        "email": "HIST@GMAIL.COM"
+    },
+    "dadosEndereco": {
+        "complemento": "AP 610",
+        "numero": 2948,
+        "logradouro": "CRISTOVÃƒO COLOMBO",
+        "bairro": "HIGIENOPOLIS",
+        "tipoResidencia": "NAO_INFORMADA",
+        "tipoLogradouro": "RUA",
+        "tipoEndereco": "RESIDENCIAL",
+        "cep": "01009999"
+    },
+    "dadosTelefone": {
+        "telefone": "998085315",
+        "tipoTelefone": "CELULAR",
+        "ddd": "51",
+        "ramal": ""
+    },
+    "dadosRenda": {
+        "rendaComprovada": "SIM",
+        "rendaPresumida": "NAO",
+        "rendaBruta": 5000,
+        "rendaLiquida": 4000
+    },
+    "numeroDocumento": "32563849519",
+    "dadosProfissao": {
+        "codigoProfissao": "1",
+        "nomeCargo": "Algun Cargo"
+    },
+    "dadosCliente": {
+        "tipoCliente": "FISICA",
+        "titular": "TITULAR",
+        "pessoaLigada": "NAO_LIGADA"
+    }
+}
+HTTP/1.1 200 OK
+X-Powered-By: Undertow/1
+Topaz-Process-Date: 2021/07/07
+Server: WildFly/10
+Topaz-Posting-ID: 1001-20210707-900000159
+Date: Wed, 21 Jul 2021 20:08:08 GMT
+Topaz-Branch-Number: 1001
+Connection: keep-alive
+Topaz-Posting-Number: 900000159
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "tipoDocumento": "CPF",
+    "codigoCliente": 930,
+    "numeroDocumento": "32563849519",
+    "titular": "TITULAR",
+    "pessoaLigada": "NAO_LIGADA"
+}
+tipoDocumento: CPF, codigoCliente: 930, numeroDocumento: 32563849519, titular: TITULAR, pessoLigada: NAO_LIGADA
+Request method:	POST
+Request URI:	http://localhost:8080/topazinterpretedws/ContaCorrenteService/v1/incluirContaCorrente
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Topaz-Channel=MOBILE
+				Topaz-Transaction-ID=2021-07-21T17:08:08.243
+				Topaz-User=TOP
+				Topaz-Company=358
+				Topaz-Branch=1001
+				Authorization=Bearer 45684184
+				Topaz-Ip-Address=127.0.0.0
+				Topaz-Mac-Address=00-14-22-01-23-45
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "cestaId": "3",
+    "produto": "CONTA_CORRENTE_PF",
+    "codigoCliente": "930",
+    "diaCobrancaCesta": 4,
+    "agencia": "1"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Undertow/1
+Topaz-Process-Date: 2021/07/07
+Server: WildFly/10
+Topaz-Posting-ID: 1001-20210707-900000160
+Date: Wed, 21 Jul 2021 20:08:09 GMT
+Topaz-Branch-Number: 1001
+Connection: keep-alive
+Topaz-Posting-Number: 900000160
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "numeroConta": 1000713,
+    "tipoConta": "CONTA_CORRENTE_PF",
+    "agencia": 1
+}
+numeroConta: 1000713, tipoConta: CONTA_CORRENTE_PF, agencia: 1
+Request method:	POST
+Request URI:	http://localhost:8080/topazinterpretedws/ContaCorrenteService/v1/cashin
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Topaz-Channel=MOBILE
+				Topaz-Transaction-ID=2021-07-21T17:08:09.383
+				Topaz-User=TOP
+				Topaz-Company=358
+				Topaz-Branch=1001
+				Authorization=Bearer 45684184
+				Topaz-Ip-Address=127.0.0.0
+				Topaz-Mac-Address=00-14-22-01-23-45
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "conta": "1000713",
+    "valor": "11000",
+    "tipoConta": "CONTA_CORRENTE_PF",
+    "descricao": "CLARO"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Undertow/1
+Topaz-Process-Date: 2021/07/07
+Server: WildFly/10
+Topaz-Posting-ID: 1001-20210707-900000161
+Date: Wed, 21 Jul 2021 20:08:10 GMT
+Topaz-Branch-Number: 1001
+Connection: keep-alive
+Topaz-Posting-Number: 900000161
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "conta": 1000713,
+    "tipoConta": "CONTA_CORRENTE_PF"
+}
+{
+    "conta": 1000713,
+    "tipoConta": "CONTA_CORRENTE_PF"
+}
+]]></system-out>
+  <system-err><![CDATA[jul 21, 2021 5:08:00 PM org.aspectj.weaver.tools.Jdk14Trace error
+GRAVE: org/codehaus/groovy/runtime/callsite/AbstractCallSite
+java.lang.RuntimeException: bad non-abstract method with no code: void org.codehaus.groovy.runtime.callsite.AbstractCallSite.<init>(org.codehaus.groovy.runtime.callsite.CallSiteArray, int, java.lang.String) on public class org.codehaus.groovy.runtime.callsite.AbstractCallSite
+	at org.aspectj.weaver.bcel.LazyMethodGen.<init>(LazyMethodGen.java:223)
+	at org.aspectj.weaver.bcel.LazyClassGen.<init>(LazyClassGen.java:308)
+	at org.aspectj.weaver.bcel.BcelObjectType.getLazyClassGen(BcelObjectType.java:563)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1693)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1644)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1409)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1191)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:527)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:363)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:121)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:54)
+	at sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:428)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.codehaus.groovy.reflection.SunClassLoader.define(SunClassLoader.java:94)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.loadAbstract(GroovySunClassLoader.java:72)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.<init>(GroovySunClassLoader.java:54)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.<init>(GroovySunClassLoader.java:49)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.lambda$static$0(GroovySunClassLoader.java:40)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.<clinit>(GroovySunClassLoader.java:37)
+	at org.codehaus.groovy.runtime.callsite.CallSiteGenerator.isCompilable(CallSiteGenerator.java:256)
+	at org.codehaus.groovy.reflection.CachedMethod.createStaticMetaMethodSite(CachedMethod.java:312)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.createStaticMetaMethodSite(StaticMetaMethodSite.java:112)
+	at groovy.lang.MetaClassImpl.createStaticSite(MetaClassImpl.java:3500)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallStaticSite(CallSiteArray.java:74)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:156)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:21)
+	at io.restassured.config.SSLConfig.<init>(SSLConfig.java:192)
+	at io.restassured.config.SSLConfig.<init>(SSLConfig.java:184)
+	at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:421)
+	at BaseTests.setup(BaseTests.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeAllMethod(TimeoutExtension.java:68)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeBeforeAllMethods$9(ClassBasedTestDescriptor.java:384)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeBeforeAllMethods(ClassBasedTestDescriptor.java:382)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:196)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.before(ClassBasedTestDescriptor.java:78)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:136)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+
+jul 21, 2021 5:08:00 PM org.aspectj.weaver.tools.Jdk14Trace info
+INFORMACIÓN: Dumping to C:\Users\adrianr\IdeaProjects\TestAutomatizado\.\ajcore.20210721.170800.912.txt
+]]></system-err>
+</testsuite>

@@ -1,18 +1,24 @@
-2021-07-09T12:05:12,444 [Test worker] INFO  (ReqResTests.java:18) - Iniciando la configuracion
-2021-07-09T12:05:12,866 [Test worker] INFO  (ReqResTests.java:20) - Configuracion exitosa
-2021-07-09T12:27:56,448 [Test worker] INFO  (BaseTests.java:13) - Iniciando la configuracion
-2021-07-09T12:27:56,854 [Test worker] INFO  (BaseTests.java:15) - Configuracion exitosa
-2021-07-09T12:36:28,705 [Test worker] INFO  (BaseTests.java:13) - Iniciando la configuracion
-2021-07-09T12:36:29,564 [Test worker] INFO  (BaseTests.java:15) - Configuracion exitosa
-2021-07-09T12:45:50,962 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T12:45:51,712 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
-2021-07-09T12:46:52,963 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T12:46:53,635 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
-2021-07-09T15:18:08,306 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T15:18:08,978 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
-2021-07-09T15:21:34,199 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T15:21:34,918 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
-2021-07-09T15:24:55,531 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T15:24:56,247 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
-2021-07-09T15:25:50,295 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
-2021-07-09T15:25:51,013 [Test worker] INFO  (BaseTests.java:28) - Configuracion exitosa
+2021-07-21T09:41:53,365 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T09:41:54,323 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T09:43:17,814 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T09:43:18,700 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T10:12:21,500 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T10:12:22,203 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T10:14:39,849 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T10:14:40,684 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T10:24:20,438 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T10:24:21,186 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T15:51:52,471 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T15:51:53,159 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T15:54:12,853 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T15:54:13,849 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T15:57:34,600 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T15:57:35,354 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T16:16:06,223 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T16:16:07,040 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T16:46:38,187 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T16:46:38,963 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T16:57:13,706 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T16:57:14,531 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
+2021-07-21T17:08:00,227 [Test worker] INFO  (BaseTests.java:26) - Iniciando la configuracion
+2021-07-21T17:08:01,265 [Test worker] INFO  (BaseTests.java:29) - Configuracion exitosa
